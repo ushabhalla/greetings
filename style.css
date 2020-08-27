@@ -1,0 +1,46 @@
+html {
+    /* scroll-behavior: smooth; */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Peta', sans-serif;
+    background-color: #000;
+    /* background-image: linear-gradient(to bottom right, #69C9D0, #EE1D52); */
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    
+}
+
+#time {
+    padding-left: 5%;
+    font-size: -webkit-xxx-large;
+}
+
+#greeting {
+    display: flex;
+    justify-content: center;
+    font-size: -webkit-xxx-large;
+}
+
+img {
+    padding-left: 10%;
+    width: 500 px;
+}
+
+#picture {
+    /* padding-left: 30%; */
+    background-image: url(https://collectionapi.metmuseum.org/api/collection/v1/iiif/344258/758466/main-image);
+    background-size: contain;
+    background-color: antiquewhite;
+    position: relative;
+    height: 540px;
+    width: 900px;
+    margin-left: 20%;
+    margin-top: -15%;
+}
